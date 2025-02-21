@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.contentblock{
+    width: 1007px;
+    margin: auto;
+}
+header{
+    margin-top: 27px;
+    height: 149px;
+}
+h1{
+    display: none;
+}
+nav{
+    font-size: 19px;
+    font-style: bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 4px;
+}
+nav>ul{
+    background-color: #898989;
+    height: 36px;
+}
+nav>ul>li{
+    display: inline-block;
+    margin: -4px;
+    height: 100%;
+    padding: 0px 10px;
+}
+.home, .fcinema{
+    background-color: #00aedb;
+}
+.cinema{
+    background-color: #8cc63f;
+}
+.magazine{
+    background-color: #5261ac;
+}
+.cssauthor{
+    background-color: #00aedb;
+}
+.topmenu, .fTravel{
+    background-color: #f78f1d;
+}
+.archives{
+    background-color: #f00;
+}
+.contactus{
+    background-color: #898989;
+}
+.fTelevison{
+    background-color: #ec098d;
+}
+section>p{
+    color: #00aedb;
+    font-size: 19px;
+    font-weight: 800;
+}
+section>figure{
+    display: inline-block;
+    width: 326px;
+    margin-right: 10px;
+}
+figure:last-child{
+    margin: 0;
+}
+section>img{
+    display: inline-block;
+}
+figcaption{
+    padding-left: 20px;
+    color: #fff;
+}
+figure>p{
+    font-size: 15px;
+}
