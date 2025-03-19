@@ -1,0 +1,167 @@
+/* .box-1{
+    background-color: #ff6766;
+    padding: 10px 0px;
+}
+
+.btn-one{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #fffff9a1;
+}
+
+.btn-one:hover{
+    background: none;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+}
+
+.navbutton{
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.navbutton:hover{
+    background-color: blue;
+}
+
+div{
+    margin: 30px auto;
+    width: 200px;
+    height: 100px;
+    padding: 40px;
+}
+
+p{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: yellow;
+}
+
+@keyframes anime{
+    0%,70%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%,30%{
+        background-color: orange;
+    }
+}
+
+@keyframes translate {
+    from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(200px,0px);
+    }
+}
+
+.but{
+    animation: anime 1s linear infinite;
+}
+
+p{
+    animation: translate 2s infinite alternate;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+
+.ease{
+    animation-timing-function: ease;
+}
+
+.ease-in{
+    animation-timing-function: ease-in;
+}
+
+.ease-out{
+    animation-timing-function: ease-out;
+}
+
+.liner{
+    animation-timing-function: linear;
+} */
+
+@keyframes translation{
+    from{
+        transform: rotate(0deg) translateX(60px);
+    }
+    to{
+        transform: rotate(360deg) translateX(60px);
+    }
+}
+
+.loading{
+    width: 500px;
+    padding: 250px;
+    background-color: black;
+}
+
+.loading div{
+    position: absolute;
+    animation:  translation 10s ease-in infinite;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.loading div:nth-last-child(2){
+    animation-delay: 0.5s;
+}
+
+.loading div:nth-last-child(3){
+    animation-delay: 1s;
+}
+
+.loading div:nth-last-child(4){
+    animation-delay: 1.5s;
+}
+
+@keyframes move{
+    0%{
+        height: 100px;
+    }
+    100%{
+        height: 600px;
+    }
+}
+
+.tepa-pas{
+    width: 1000px;
+    background-color: black;
+}
+
+.tepa-pas div{
+    display: inline-block;
+    margin: 0px 60px;
+    height: 150px;
+    animation: move 2s ease-out infinite alternate;
+    width: 100px;
+    background-color: goldenrod;
+}
+
+.tepa-pas  div:nth-last-child(2){
+    animation-delay: 0.5s;
+    background-color: blue;
+}
+
+.tepa-pas  div:nth-last-child(3){
+    animation-delay: 1s;
+    background-color: red;
+}
+
+.tepa-pas  div:nth-last-child(4){
+    animation-delay: 1.5s;
+    background-color: yellow;
+}
