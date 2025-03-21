@@ -92,7 +92,7 @@ p{
     animation-timing-function: linear;
 } */
 
-@keyframes translation{
+/* @keyframes translation{
     from{
         transform: rotate(0deg) translateX(60px);
     }
@@ -164,4 +164,39 @@ p{
 .tepa-pas  div:nth-last-child(4){
     animation-delay: 1.5s;
     background-color: yellow;
+} */
+
+*{
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.jadval{
+    border-collapse: collapse;
+}
+
+.jadval td, .jadval th{
+   border: #fff solid 2px;
+   min-width: 300px;
+   height: 100px;
+   /* text-align: center; /*left chap right ong center orta jutify ikta chetinidan tekislash uchun */
+   /*vertical-align: bottom; /*top yuqori bottom past middle o'rta  faqqat table ichida ishlidi*/
+    background-color: cornflowerblue;
+}
+
+.jadval thead th{
+    background-color: blue;
+    color: #fff;
+}
+
+.jadval tr{
+    background-color: #e7ebf5;
+}
+
+.jadval tr:nth-child(odd){/*odd toq juft even */
+    background-color: #ccd5ea;
 }
