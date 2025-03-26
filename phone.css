@@ -1,0 +1,34 @@
+.menu{
+    margin: 0;
+}
+.menu .btn-menu{
+    display: block;
+}
+.menu nav{
+    display: none;
+}
+.btn-menu{
+    margin-left: 300px;
+    margin-top: -70px;
+}
+.btn-menu div{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.menu:hover nav{
+    width: 200px;
+    display: block;
+    background-color: #0d244a;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 20px;
+    text-align: right;
+}
+
+.menu nav ul li{
+    display: flex;
+    flex-direction: column;
+}
