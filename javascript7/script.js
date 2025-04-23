@@ -430,12 +430,70 @@
 // lessons.lesson1.pages=12;
 // lessons.lesson2={title: "Ko'rinishi", pages:13};
 
-const market = new Object();
+// const market = new Object();
 
-let tavarnomi = prompt("tavar nomini kiriting");
-let tavarnarxi = prompt("tavar narxi kiriting");
+// let tavarnomi = prompt("tavar nomini kiriting");
+// let tavarnarxi = prompt("tavar narxi kiriting");
 
-market[tavarnomi] = tavarnarxi;
+// market[tavarnomi] = tavarnarxi;
 
-let searching =prompt('Qidirilvotkan tovar ?');
-alert(market[searching]);
+// let searching =prompt('Qidirilvotkan tovar ?');
+// alert(market[searching]);
+
+// let names = ["Abdulla", "Abduqayyum", "Anvar", "Sasha}
+
+// console.log("Assalomu alaykum");
+// for(X in names){
+//    console.log(X)
+// }
+
+// let tavarlar = new Object();
+// for (){
+//    tavarlar[tavarlar]={
+//       mahsulot:[
+//          {nomi: "telefon", narxi:50000}
+//          // {nomi: "noutbuk", narxi:1200}
+//          // {nomi: "televizor", narxi:800}
+//       ]
+//    }
+// }
+// console.log(tavarlar)
+
+// outerloop:
+// for(let i=0; i<10; i++){
+//    innerloop:
+//    for(let j=0; j<10; j++){
+//       if(j>3)break;
+//       if(i==2)break innerloop;
+//       if(i==4)break outerloop;
+//       console.log("i="+i+"j="+j);
+//    }
+// }
+// console.log("Final i="+i+'j='+j);
+
+if(n==1){
+   //agar bir bolsa
+}
+else if(n==2){
+   //agar ikki bolsa
+}
+else if(n==3){
+   //agar uch bolsa
+}
+else{
+   //qolgan holatda
+}
+
+switch(n){
+   case 1:
+      //agar bir bolsa
+      break;
+      case 2:
+         //agar ikki bolsa
+         break;
+      case 3:
+         //agar 3 bolsa
+         break;
+   default:
+      //qolgan holatda
+}
