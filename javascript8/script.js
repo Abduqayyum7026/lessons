@@ -471,29 +471,173 @@
 // }
 // console.log("Final i="+i+'j='+j);
 
-if(n==1){
-   //agar bir bolsa
+// if(n==1){
+//    //agar bir bolsa
+// }
+// else if(n==2){
+//    //agar ikki bolsa
+// }
+// else if(n==3){
+//    //agar uch bolsa
+// }
+// else{
+//    //qolgan holatda
+// }
+
+// switch(n){
+//    case 1:
+//       //agar bir bolsa
+//       break;
+//       case 2:
+//          //agar ikki bolsa
+//          break;
+//       case 3:
+//          //agar 3 bolsa
+//          break;
+//    default:
+//       //qolgan holatda
+// }
+
+// 25.04.2025yil
+
+// let x=8;
+// let y=10;
+// let z=5;
+// let matem;
+
+// if(x>y & x > z){
+//    matem=x;
+// }
+// else if (y>x & y>z){
+//    matem=y;
+// }
+// else{
+//    matem=z
+// }
+// console.log("eng katta raqam:", matem)
+
+// let first =[2,5,3,4,7];
+// let newfirst =[];
+// newfirst[0] = first[first.length -1];
+// for(let i=0; i<first.length -1; i++){
+//    newfirst[i+1]=first[i];
+// }
+// console.log(newfirst);
+
+let search = [2,5,3,4,7];
+let number = 1;
+let foundati = false;
+
+for (let i=0; i< search.length; i++){
+   if (search[i] === number){
+      foundati=true;
+      console.log(number +"raqami topildi" +i);
+      break;
+   }
 }
-else if(n==2){
-   //agar ikki bolsa
-}
-else if(n==3){
-   //agar uch bolsa
-}
-else{
-   //qolgan holatda
+if (!foundati){
+   console.log(number + "raqam topilmadi");
 }
 
-switch(n){
-   case 1:
-      //agar bir bolsa
-      break;
-      case 2:
-         //agar ikki bolsa
-         break;
-      case 3:
-         //agar 3 bolsa
-         break;
-   default:
-      //qolgan holatda
+let numbersearch=[[1,2,3],[4,5,6],[7,8,9]];
+let numbers  =5;
+let fundament=false;
+
+for (let i=0; i<numbersearch.length; i++){
+   for (let j =0; j<numbersearch[i].length; j++){
+      if (numbersearch[i][j]=== numbers){
+         console.log(numbers ="raqam"+i+'-qator'+j+"-ustun"+"joylashgan");
+         fundament=true;
+         break
+      }
+   }
+   if(fundament) break;
 }
+if(!fundament){
+   console.log(numbers +"raqam topilmadi")
+}
+
+let almash =[[1,2,3],[4,5,6],[7,8,9]];
+for (let i =0; i < almash.length; i++){
+   for (let j=onabort; j<almash[i].length; j++){
+      if (almash[i][j]===2){
+         almash[i][j]=-1;
+      }
+      else if (almash [i][j]==5){
+         almash[i][j]=-2;
+      }
+      else if (almash[i][j]===8){
+         almash[i][j]=-3;
+      }
+   }
+}
+
+for (let i=0; i<almash.length; i++){
+   for (let j=0; j<almash[i].length; j++){
+      if (almash[i][j]===-1){
+         almash[i][j]=5;
+      }
+      else if (almash [i][j]===-2){
+         almash[i][j]=8;
+      }
+      else if (almash[i][j]===-3){
+         almash[i][j]=2;
+      }
+   }
+}
+console.log(almash);
+
+// let a=[5,6,8,9,10];
+// a.reverse()
+// b=a.join()
+// alert(b)
+
+// let x=[1,2,3];
+// b=x.concat(4,5)
+// c=x.concat([4,5])
+// d=x.concat(4,[5,[6,7]])
+// console.log(d)
+
+// let fruuct=["banana","cherry","apple"];
+// fruuct.sort();
+// alert(fruuct.join())
+// fruuct.sort(function(fruuct,b)) {
+//    return a-b;
+// }
+
+// a=[5,2,3,4,1];
+// a.sort(function(a,b)){
+//    if (a===4){
+//       return -1;
+//    }
+//    if (b==4){
+//       return 1;
+//    }
+//    return b-a
+// }
+// console.log(a)
+
+// a=[1,2,3,4,5];
+// a.slice(0,3);
+// a.slice(3);
+// a.slice(1,-1);
+// a.slice(-3,-2)
+
+// a=[1,2,3,4,5,6,7,8];
+// a.splice(2,0, "a","b");
+// a.splice(2,2,[1,2],3);
+
+// a=[];
+// a.push(1,2);
+// a.pop();
+// a.push(3);
+// a.pop();
+// a.push([4,5]);
+
+// a=[];
+// a.unshift(1);
+// a.unshift(22);
+// a.shift();
+// a.unshift(3,[4,5]);
+// a.shift();
+// a.shift();
